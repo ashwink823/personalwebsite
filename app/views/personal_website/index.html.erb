@@ -3,10 +3,21 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
   <title>Starter Template - Materialize</title>
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
+<script src="https://use.fontawesome.com/6a846431f3.js"></script>
   <!-- CSS  -->
   <link href="assets/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -29,119 +40,128 @@
 
       <!--   Icon Section   -->
       <div class="row">
-		<div class="col s12 m12">
-			<div class="col s12 m4 left-side">
-				<%= image_tag ("propic.jpg.png") %> <alt class="circle user-img responsive-img">
+		<div class="col-md-12">
+			<div class="col-xs-6 col-md-4">
+			<center><%= image_tag ('propic.jpg.png') %></center>
+
 			  <div class="block"> 
-				<h5 class="center indigo-text">Ashwin Kumar</h5>
-				<p class="light center">Financial Associate & Front-End Developer</p>
+				<h3 class="center indigo-text">Ashwin Kumar</h3>
+				<p class="light center">Business Professional & Front-End Developer</p>
 			  </div>
 			  <hr>
 			  <div class="block">
-				<h5 class="left-align"><i class="mdi-action-account-box"></i>
-					About me
-				</h5>
-				<p>Hey there and welcome to my website! I'm a recent graduate from the coding bootcamp Tech Talent South 
-				and have always shared a passion towards technology. In addition, I'm currently working as a Financial Associate 
-				at Fidelity Investments where I assist participants in reviewing their 401(k) retirement plans. I want to continue 
-				developing my skillset in the world of programming and business to enhance my knowledge between these industries while 
-				taking on new challenges each step of the way.</p> 
+				<h3 class="left-align">
+				<span style="padding-right: 10px;" class="glyphicon glyphicon-user" aria-hidden="true"></span> About me
+				</h3>
+			
+				<p>Hey there and welcome to my website! I'm a graduate from the coding bootcamp Tech Talent South 
+				and have always shared a passion towards technology. In addition, I'm currently working as an Electronic Channel Support Representative 
+				at Fidelity Investments where I assist clients in technical and navigational issues they may be experiencing while accessing their account information. I want to continue developing my skillset in the world of programming and business to enhance my knowledge between these industries while taking on new challenges each step of the way.</p> 
 			  <div class="block">
-				<h5 class="left-align"><i class="mdi-action-perm-phone-msg"></i>
+				<h3 class="left-align"><span style="padding-right: 10px;" class="fa fa-volume-control-phone" aria-hidden="true"></span>
 					Contact me
-				</h5>
-					<p><i class="mdi-maps-pin-drop indigo-text"></i>Frisco, TX<br/>
-					<i class="mdi-communication-phone indigo-text"></i>469-734-7555<br/>
-					<i class="mdi-content-link indigo-text"></i> <class="indigo-text" target="_blank"></a>
+				</h3>
+					<p><span style="padding-right: 10px" class="glyphicon glyphicon-home" aria-hidden="true"></span>Frisco, TX<br/>
+					<span style="padding-right: 10px" class="glyphicon glyphicon-earphone" aria-hidden="true"></span>469-734-7555<br/>
+					 <span style="padding-right: 10px"  class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:ashwin.k823@gmail.com">Ashwin.k823@gmail.com</a><br/><br/>
+					
+					<a href="http://www.linkedin.com/in/ashwinkumar823"><button style="text-transform: capitalize;" class="btn btn-primary" type="button">
+ 						 LinkedIn 
+					</button></a>
 					</p>
 			  </div>
 			  <div class="block">
-				<h5 class="left-align"><i class="mdi-action-stars"></i>
+				<h3 class="left-align"><span style="padding-right: 10px" class="glyphicon glyphicon-star" aria-hidden="true"></span>
 					My Skills
-				</h5>
-				<h6>Ruby on Rails</h6>
-					<div class="progress">
-					<div class="progress-bar" style="width: 60%;"></div>
-				  </div>
-				<h6>HTML</h6>
-					<div class="progress">
-					<div class="progress-bar" style="width: 35%;"></div>
-				  </div>
-				<h6>CSS</h6>
-					<div class="progress">
-					<div class="progress-bar" style="width: 65%;"></div>
-				  </div>
-				<h6>Git and Github</h6>
-					<div class="progress">
-					<div class="progress-bar" style="width: 99%;"></div>
-				  </div>
-				<h6>APIs and RESTFUL design</h6>
-				    <div class="progress">
-				    <div class="progress-bar" style="width: 85%;"></div>    
-				    </div>
-				<h6>Domain Modeling</h6>
-				    <div class="progress">
-				    <div class="progress-bar" style="width: 90%;"></div>    
-				    </div>
-			  </div>
-     </div>
+				</h3>
+				<h6><i style="padding-right: 5px;" class="cbp-ig-icon devicon-ruby-plain"></i> Ruby on Rails</h6>
+				
+				<h6><i style="padding-right: 5px;" class="cbp-ig-icon devicon-html5-plain"></i> HTML</h6>
+			
+				<h6><i style="padding-right: 5px;" class="cbp-ig-icon devicon-css3-plain"></i> CSS</h6>
+				
+				<h6><i style="padding-right: 5px;" class="cbp-ig-icon devicon-github-plain"></i> Git and Github</h6>
+			
+				<h6><i style="padding-right: 5px;" class="fa fa-map-signs" aria-hidden="true"></i>APIs and RESTFUL design</h6>
+				 
+				<h6><i style="padding-right: 5px;" class="fa fa-sitemap" aria-hidden="true"></i>Domain Modeling</h6>
 </div>
-			<div class="col s12 m8 right-side">
-			<h4 class="left-align"><i class="mdi-action-group-work"></i> Professional Experience </i></h4>
+</div>
+</div>
+			<div class="col-xs-12 col-md-8">
+			<h2 class="left-align"><span style="padding-right: 10px;" class="glyphicon glyphicon-list-alt"></span> Professional Experience </span></h2>
           <div class="block">
             
-			<h5>Financial Associate - High Engagement</h5>
-			<p class="helping-text"><i class="mdi-maps-place indigo-text"></i> Fidelity Investments <i class="mdi-action-today indigo-text"></i> November 2014 - present </p>
-            <p>I regularly communicate with a broad range of participants by helping them understand their various options available within their 401(k) retirement plan.</p> 
-            <p>This experience has helped me enhance my knowledge in the area of financial services while improving my verbal communication skills along the way.</p>
+			<h3>Financial Associate - High Engagement</h3>
+			<p class="helping-text"><span class="glyphicon glyphicon-home"></span> Fidelity Investments <span class="glyphicon glyphicon-calendar"></span> November 2014 - September 2016 </p>
+            <p>I regularly communicated with a broad range of participants by helping them understand their various options available within their 401(k) retirement plan. This experience has helped me enhance my knowledge in the area of financial services while improving my communication skills along the way.</p>
           </div>
 		  <div class="block">
             
-			<h5>Code Immersion Student</h5>
-			<p class="helping-text"><i class="mdi-maps-place indigo-text"></i> Tech Talent South <i class="mdi-action-today indigo-text"></i> April 2016 - May 2016 </p>
+			<h3>Code Immersion Student</h3>
+			<p class="helping-text"><span class="glyphicon glyphicon-home"></span> Tech Talent South <span class="glyphicon glyphicon-calendar"></span> April 2016 - May 2016 </p>
             <p>As a student that was keen on learning how to program, I was taught to apply various commands and elements within the introduction to Ruby on Rails. The step by step instruction we were given was the foundation that helped us build additional projects, develop assignments, and collaborate on what key functions were needed for better front-end web development and design.</p>
           </div>
-		  <h4 class="left-align"><i class="mdi-social-school"></i> Education </i></h4>
+		  <h2 class="left-align"><i style="padding-right: 10px;" class="fa fa-graduation-cap" aria-hidden="true"></i>Education </h2>
 		  <div class="block">
             
-			<h5>Bachelor of Arts in Government</h5>
-			<p class="helping-text"><i class="mdi-maps-place indigo-text"></i> The University of Texas at Austin, <i class="mdi-action-today indigo-text"></i> August 2010 - August 2014 </p>
+			<h3>Bachelor of Arts in Government</h3>
+			<p class="helping-text"><span class="glyphicon glyphicon-home"></span> The University of Texas at Austin, <span class="glyphicon glyphicon-calendar"></span> August 2010 - August 2014 </p>
             <p>I had an interest towards learning how Government plays an important role in various political and economic systems. Through my classes, I critically thought and applied these concepts that
             helped me understand the purpose behind how policy, choice, and decision-making can play an important role in democracy.
 		  		</div>
-		  <h4 class="left-align"><i class="mdi-social-pages"></i> Portfolio </i></h4>
+		  <h2 class="left-align"><span style="padding-right: 10px;" class="glyphicon glyphicon-list-alt"></span>Portfolio </span></h2>
 		  <div class="block">
 		  
-    <div class="col m6 s12">
+    <div class="col-xs-6">
 	<div class="card">
     <div class="card-image">
-      <img src="assets/images/workstation1.jpg" alt="work">
+      <%= image_tag ('workstation1.jpg') %>
     <div class="card-content">
-      <span class="card-title grey-text darken-4">www.linkedin.com/in/ashwinkumar823<i class="mdi-navigation-more-vert right"></i></span>
+      <span class="card-title grey-text darken-4"><span class="mdi-navigation-more-vert right"></span>
+      Tech Talent
+      </span>
 
-      <p><a href="http://www.linkedin.com/ashwin-kumar"></a></p>
+      <p><a href="https://tech-talent-blog-ashwink823.c9users.io/users/sign_in">Click Here</a></p>
     </div>
-    <div class="card-reveal">
-      <span class="card-title grey-text darken-4">Mirchu <i class="mdi-navigation-close right"></i></span>
-      <p>Web and technology | News and updates. Mirchu.net is Web and Technology Blog. We represent easy and unique Information related to  the Technology and Web trends.</p>
-    </div>
+    
   </div>
 
     </div>
   </div>
-        <div class="col m6 s12">
+  <div class="col-xs-6">
 	<div class="card">
     <div class="card-image">
-      <img src="assets/images/workstation2.jpg" alt="work">
+      <%= image_tag ('workstation1.jpg') %>
     <div class="card-content">
-      <span class="card-title grey-text darken-4">ThemeSafari <i class="mdi-navigation-more-vert right"></i></span>
+      <span class="card-title grey-text darken-4"><span class="mdi-navigation-more-vert right"></span>
+      Food4Thought
+      </span>
+
+      <p><a href="https://restaurantproject-ashwink823.c9users.io/">Click Here</a></p>
+    </div>
+    
+  </div>
 
     </div>
+  </div>  
+<div class="col-xs-6">
+	<div class="card">
+    <div class="card-image">
+      <%= image_tag ('workstation2.jpg') %>
+    <div class="card-content">
+      <span class="card-title grey-text darken-4"><span class="mdi-navigation-more-vert right"></span>
+      Weather App
+      </span>
+
+      <p><a href="https://weatherapp-ashwink823-1.c9users.io/">Click Here</a></p>
     </div>
+   
   </div>
-        
-		</div>
-		</div>
+
+    </div>
+</div>
+</div>
 		</div>
       </div>
     </div>

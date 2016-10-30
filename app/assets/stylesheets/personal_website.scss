@@ -7,6 +7,8 @@
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
+
+ 
 html {
   font-family: sans-serif;
   /* 1 */
@@ -78,7 +80,7 @@ template {
 }
 
 /* Links
-   ========================================================================== */
+
 /**
  * Remove the gray background color from active links in IE 10.
  */
@@ -103,16 +105,13 @@ abbr[title] {
   border-bottom: 1px dotted;
 }
 
-/**
- * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
- */
+
 b,
 strong {
   font-weight: bold;
 }
 
 /**
- * Address styling not present in Safari and Chrome.
  */
 dfn {
   font-style: italic;
@@ -9059,7 +9058,7 @@ i {
 	margin-bottom:40px;
 }
 .left-side .user-img {
-	width:70%;
+	width:100%;
 	display:block;
 	margin:0px auto;
 }
