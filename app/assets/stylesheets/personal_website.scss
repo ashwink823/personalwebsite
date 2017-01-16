@@ -965,27 +965,27 @@ th {
 }
 
 .indigo {
-  background-color: #3f51b5 !important;
+  background-color: #90caf9 !important;
 }
 
 .indigo-text {
-  color: #3f51b5 !important;
+  color: #90caf9 !important;
 }
 
 .indigo.darken-1 {
-  background-color: #3949ab !important;
+  background-color: #90caf9 !important;
 }
 
 .indigo-text.darken-1 {
-  color: #3949ab !important;
+  color: #90caf9 !important;
 }
 
 .indigo.darken-2 {
-  background-color: #303f9f !important;
+  background-color: #90caf9 !important;
 }
 
 .indigo-text.darken-2 {
-  color: #303f9f !important;
+  color:  !important;
 }
 
 .indigo.darken-3 {
@@ -2529,7 +2529,7 @@ th {
 }
 
 .black-text {
-  color: #000000 !important;
+  color: #00008b !important;
 }
 
 .white {
@@ -2560,7 +2560,7 @@ a {
 }
 
 p {
-  color: #555;
+  color: #000000;
 }
 
 .no-select, input[type=range], input[type=range] + .thumb {
@@ -6284,7 +6284,7 @@ html {
   line-height: 1.5;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
-  color: #212121;
+  color: #c15415;
 }
 @media only screen and (min-width: 0) {
   html {
@@ -6326,6 +6326,7 @@ h3 {
   font-size: 2.92rem;
   line-height: 3.212rem;
   margin: 1.46rem 0 1.168rem 0;
+  color: #00008b;
 }
 
 h4 {
@@ -9019,7 +9020,7 @@ body {
 	background-color: #eee;
 }
 #top-bar {
-	background: #3f51b5;
+	background: #bbdefb;
 	height:200px;
 	float:left;
 	width:100%;
